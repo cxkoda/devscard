@@ -2,14 +2,22 @@ import type { ExperienceSection } from '@/types/sections/experience-section.type
 import type { ReadonlyDeep } from 'type-fest';
 import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
 import {
+  c,
   chakraUi,
+  cpp,
+  docker,
   eslint,
+  ethereum,
   firebase,
+  gcp,
+  golang,
   nextJs,
   nx,
   pnpm,
+  python,
   react,
   reactQuery,
+  solidity,
   tailwindCss,
   typescript,
   vue,
@@ -24,10 +32,10 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      role: 'Senior blockchain engineer',
+      company: 'PROOF',
+      image: import('@/assets/logos/proof-logo.jpeg'),
+      dates: [new Date('2023-05'), null],
       description: `
         - In tristique vulputate augue vel egestas.
         - Quisque ac imperdiet tortor, at lacinia ex.
@@ -38,15 +46,40 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [ethereum(), solidity(), golang(), python(), docker()],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [
+        website({ url: 'https://www.proof.xyz/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/proof-holdings-inc/' }),
+      ],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
+      role: 'Blockchain engineer',
+      company: 'PROOF',
+      image: import('@/assets/logos/proof-logo.jpeg'),
+      dates: [new Date('2022-08'), new Date('2023-05')],
+      description: `
+        - In tristique vulputate augue vel egestas.
+        - Quisque ac imperdiet tortor, at lacinia ex.
+        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
+        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
+        - Nunc malesuada leo et est iaculis facilisis.
+        - Fusce eu urna ut magna malesuada fringilla.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [ethereum(), solidity(), golang(), python(), docker(), gcp()],
+      },
+      links: [
+        website({ url: 'https://www.proof.xyz/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/proof-holdings-inc/' }),
+      ],
+    },
+    {
+      role: 'Blockchain Engineer',
+      company: 'Freelance',
       image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      dates: [new Date('2022-01'), null],
       description: `
         - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
         - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
@@ -55,15 +88,15 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [ethereum(), solidity(), golang(), python(), docker()],
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [website({ url: 'https://david-huber.eu' }), twitter({ url: 'https://twitter.com/cxkoda' })],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      role: 'University Assistant',
+      company: 'University of Innsbruck',
+      image: import('@/assets/logos/uibk-logo.png'),
+      dates: [new Date('2017-09'), new Date('2021-12')],
       description: `
         Nulla volutpat justo ante, rhoncus posuere massa egestas in:
 
@@ -74,7 +107,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [cpp(), c(), python(), golang()],
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],
     },

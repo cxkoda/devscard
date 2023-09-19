@@ -32,7 +32,8 @@ export const linkedin = createLinkFactory({
 
 export const twitter = createLinkFactory({
   name: 'Twitter',
-  icon: 'fa6-brands:twitter',
+  // icon: 'fa6-brands:twitter',
+  icon: 'simple-icons:x',
 });
 
 export const pinterest = createLinkFactory({

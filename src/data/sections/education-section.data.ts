@@ -11,20 +11,61 @@ const educationSectionData = {
   },
   diplomas: [
     {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
-      dates: [new Date('2014.10'), new Date('2016.07')],
-      description: 'Master degree. Specialization in software development.',
+      title: 'Computational High-Energy Astroparticle Physics',
+      institution: 'Leopold-Franzens-Universität Innsbruck, Austria',
+      image: import('@/assets/logos/uibk-logo.png'),
+      dates: [new Date('2017.10'), new Date('2022.01')],
+      description:
+        'Numerical models in C++ for HPC-applications | Turbulent fluid simulations in 3D | Dynamically coupled particle transport models | Non-thermal emission processes | Focus: Gamma-ray binaries',
       links: [website({ url: '#' })],
+      details: [
+        {
+          label: 'Degree',
+          value: 'Doctor of Philosophy (PhD)',
+        },
+        {
+          label: 'Research Topic',
+          value: 'Relativistic Fluid Modelling of Gamma-Ray Binary Emission',
+        },
+      ],
     },
     {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
-      dates: [new Date('2011.10'), new Date('2014.07')],
-      description: "Bachelor's degree. Specialization in application development.",
+      title: 'MSc in Computational Physics',
+      institution: 'Leopold-Franzens-Universität Innsbruck, Austria',
+      image: import('@/assets/logos/uibk-logo.png'),
+      dates: [new Date('2015.10'), new Date('2017.10')],
+      description:
+        'Implementation of relativistic hydrodynamics in CRONOS | Visualisatoin tools | Application to study the wind interaction in gamma-ray binaries.',
       links: [website({ url: '#' })],
+      details: [
+        {
+          label: 'Degree',
+          value: 'Master of Science (MSc)',
+        },
+        {
+          label: 'Research Topic',
+          value: 'Relativistic Hydrodynamics in Gamma-Ray Binaries',
+        },
+      ],
+    },
+    {
+      title: 'BSc in Physics',
+      institution: 'Leopold-Franzens-Universität Innsbruck, Austria',
+      image: import('@/assets/logos/uibk-logo.png'),
+      dates: [new Date('2012.10'), new Date('2015.08')],
+      description:
+        'Development of a C++ tool to calculate synchrotron emission | Application to simulated data of Colliding-Wind-Binaries',
+      links: [website({ url: '#' })],
+      details: [
+        {
+          label: 'Degree',
+          value: 'Bachelor of Science (BSc)',
+        },
+        {
+          label: 'Thesis Title',
+          value: 'The Synchrotron Spectrum of Colliding Wind Binaries',
+        },
+      ],
     },
   ],
 } as const satisfies ReadonlyDeep<EducationSection>;

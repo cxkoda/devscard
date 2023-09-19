@@ -1,4 +1,4 @@
-import type { DateRange, LinkButton, Photo, Section } from '../shared';
+import type { DateRange, LinkButton, LabelledValue, Photo, Section } from '../shared';
 
 export interface Diploma {
   /**
@@ -24,6 +24,8 @@ export interface Diploma {
    * Date range when you were studying in the institution.
    */
   dates: DateRange;
+
+  details: LabelledValue[];
 
   /**
    * A short overview of your studies. You can use markdown syntax.

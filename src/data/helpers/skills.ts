@@ -164,3 +164,94 @@ export const vue = createSkillFactory({
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });
+
+export const solidity = createSkillFactory({
+  name: 'Solidity',
+  icon: 'simple-icons:solidity',
+  iconColor: '#363636',
+  url: 'https://soliditylang.org/',
+});
+
+export const golang = createSkillFactory({
+  name: 'Golang',
+  icon: 'simple-icons:go',
+  iconColor: '#00ADD8',
+  url: 'https://go.dev/',
+});
+
+export const docker = createSkillFactory({
+  name: 'Docker',
+  icon: 'simple-icons:docker',
+  iconColor: '#2496ED',
+  url: 'https://www.docker.com/',
+});
+
+export const prometheus = createSkillFactory({
+  name: 'Prometheus',
+  icon: 'simple-icons:prometheus',
+  iconColor: '#E6522C',
+  url: 'https://prometheus.io/',
+});
+
+export const cpp = createSkillFactory({
+  name: 'C++',
+  icon: 'simple-icons:cplusplus',
+  iconColor: '#00599C',
+  url: 'http://cppreference.com/',
+});
+
+export const c = createSkillFactory({
+  name: 'C',
+  icon: 'simple-icons:c',
+  iconColor: '#A8B9CC',
+  url: 'https://en.wikipedia.org/wiki/C_(programming_language)',
+});
+
+export const python = createSkillFactory({
+  name: 'Python',
+  icon: 'simple-icons:python',
+  iconColor: '#3776AB',
+  url: 'https://www.python.org/',
+});
+
+export const rust = createSkillFactory({
+  name: 'Rust',
+  icon: 'simple-icons:rust',
+  iconColor: '#000000',
+  url: 'https://www.python.org/',
+});
+
+export const openzeppelin = createSkillFactory({
+  name: 'OpenZeppelin',
+  icon: 'simple-icons:openzeppelin',
+  iconColor: '#4E5EE4',
+  url: 'https://www.openzeppelin.com/',
+});
+
+export const ethereum = createSkillFactory({
+  name: 'Ethereum',
+  icon: 'simple-icons:ethereum',
+  iconColor: '#3C3C3D',
+  url: 'https://ethereum.org/',
+});
+
+export const vercel = createSkillFactory({
+  name: 'Vercel',
+  icon: 'simple-icons:vercel',
+  iconColor: '#000000',
+  url: 'https://vercel.com/',
+});
+
+export const gcp = createSkillFactory({
+  name: 'Google Cloud',
+  icon: 'simple-icons:googlecloud',
+  iconColor: '#4285F4',
+  url: 'https://cloud.google.com/',
+});
+
+// export const openmpi = createSkillFactory({
+//   name: 'OpenMPI',
+//   icon: 'simple-icons:openzeppelin',
+//   // iconColor: '#4E5EE4',
+//   url: 'https://www.open-mpi.org/',
+// });
