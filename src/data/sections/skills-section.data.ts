@@ -4,16 +4,24 @@ import {
   apolloGraphql,
   astro,
   chakraUi,
+  circom,
+  cpp,
   cypress,
   eslint,
   firebase,
+  golang,
+  mathematica,
   mongoDb,
   nestJs,
+  noir,
   pnpm,
   postgreSql,
   prettier,
+  python,
   react,
+  rust,
   sass,
+  solidity,
   supabase,
   tailwindCss,
   typescript,
@@ -30,41 +38,24 @@ const skillsSectionData = {
     {
       title: 'I already know',
       skills: [
-        react({
+        solidity({
           level: 5,
-          description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
-        }),
-        typescript({
-          level: 4,
-          description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-        }),
-        sass({
-          level: 4,
           description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
         }),
-        chakraUi({ level: 5 }),
-        tailwindCss({ level: 3 }),
-        prettier({ level: 5 }),
-        eslint({
-          level: 4,
-          description:
-            'Nulla tempor turpis at vehicula pharetra. Vestibulum tellus tortor, commodo et suscipit id, lobortis id nunc.',
-        }),
-        nestJs({
-          level: 3,
-          description:
-            'Praesent feugiat ultricies iaculis. In posuere vehicula odio, sed consequat velit porta viverra.',
-        }),
+        golang({ level: 4 }),
+        mathematica({ level: 4 }),
+        cpp({ level: 3 }),
+        python({ level: 3 }),
         postgreSql({ level: 2 }),
-        mongoDb({ level: 1 }),
-        firebase({ level: 1 }),
-        pnpm({ level: 3 }),
+        typescript({
+          level: 2,
+          description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+        }),
       ],
     },
     {
       title: 'I want to learn',
-      skills: [apolloGraphql(), astro(), supabase(), cypress()],
+      skills: [rust(), noir(), circom()],
     },
     {
       title: 'I speak',

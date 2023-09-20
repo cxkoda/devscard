@@ -249,9 +249,24 @@ export const gcp = createSkillFactory({
   url: 'https://cloud.google.com/',
 });
 
-// export const openmpi = createSkillFactory({
-//   name: 'OpenMPI',
-//   icon: 'simple-icons:openzeppelin',
-//   // iconColor: '#4E5EE4',
-//   url: 'https://www.open-mpi.org/',
-// });
+export const openmpi = createSkillFactory({
+  name: 'OpenMPI',
+  url: 'https://www.open-mpi.org/',
+});
+
+export const noir = createSkillFactory({
+  name: 'Noir',
+  url: 'https://aztec.network/noir/',
+});
+
+export const circom = createSkillFactory({
+  name: 'Circom',
+  url: 'https://aztec.network/circom/',
+});
+
+export const mathematica = createSkillFactory({
+  name: 'Mathematica',
+  icon: 'simple-icons:wolframmathematica',
+  iconColor: '#DD1100',
+  url: 'https://www.wolfram.com/mathematica/',
+});

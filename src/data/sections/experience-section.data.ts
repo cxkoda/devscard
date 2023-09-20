@@ -11,8 +11,10 @@ import {
   firebase,
   gcp,
   golang,
+  mathematica,
   nextJs,
   nx,
+  openmpi,
   pnpm,
   python,
   react,
@@ -35,14 +37,12 @@ const experienceSectionData = {
       role: 'Senior blockchain engineer',
       company: 'PROOF',
       image: import('@/assets/logos/proof-logo.jpeg'),
-      dates: [new Date('2023-05'), null],
+      dates: [new Date('2022-08'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        - Head of smart-contract engineering
+        - [EIP-6464](https://eips.ethereum.org/EIPS/eip-6464): Extending ERC-721 to allow multiple operator approval on a per-token basis
+        - [Solidify](https://github.com/proofxyz/solidify): A golang + solidity library aimed to make storing arbitrary data on EVM blockchains as easy and efficient as possible.
+        - [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds): On-chain rendering suite to generate the Moonbirds assets from compressed image layers stored on-chain. Performs on-chain alpha-blending, image resizing, encoding, etc. Optimized using inline assembly and gas profiling.
       `,
       tagsList: {
         title: 'Technologies',
@@ -53,32 +53,32 @@ const experienceSectionData = {
         linkedin({ url: 'https://www.linkedin.com/company/proof-holdings-inc/' }),
       ],
     },
-    {
-      role: 'Blockchain engineer',
-      company: 'PROOF',
-      image: import('@/assets/logos/proof-logo.jpeg'),
-      dates: [new Date('2022-08'), new Date('2023-05')],
-      description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
-      `,
-      tagsList: {
-        title: 'Technologies',
-        tags: [ethereum(), solidity(), golang(), python(), docker(), gcp()],
-      },
-      links: [
-        website({ url: 'https://www.proof.xyz/' }),
-        linkedin({ url: 'https://www.linkedin.com/company/proof-holdings-inc/' }),
-      ],
-    },
+    // {
+    //   role: 'Blockchain engineer',
+    //   company: 'PROOF',
+    //   image: import('@/assets/logos/proof-logo.jpeg'),
+    //   dates: [new Date('2022-08'), new Date('2023-05')],
+    //   description: `
+    //     - In tristique vulputate augue vel egestas.
+    //     - Quisque ac imperdiet tortor, at lacinia ex.
+    //     - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
+    //     - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
+    //     - Nunc malesuada leo et est iaculis facilisis.
+    //     - Fusce eu urna ut magna malesuada fringilla.
+    //   `,
+    //   tagsList: {
+    //     title: 'Technologies',
+    //     tags: [ethereum(), solidity(), golang(), python(), docker(), gcp()],
+    //   },
+    //   links: [
+    //     website({ url: 'https://www.proof.xyz/' }),
+    //     linkedin({ url: 'https://www.linkedin.com/company/proof-holdings-inc/' }),
+    //   ],
+    // },
     {
       role: 'Blockchain Engineer',
       company: 'Freelance',
-      image: import('@/assets/logos/facebook-logo.png'),
+      // image: import('@/assets/logos/facebook-logo.png'),
       dates: [new Date('2022-01'), null],
       description: `
         - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
@@ -98,18 +98,33 @@ const experienceSectionData = {
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2017-09'), new Date('2021-12')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+      - Research within the scope of my PhD project
+      - Development of numerical models for relativistic hydrodynamics integrated withing CRONOS aimed for high-performance computing infrastructure (C++)
+      - Development of visualisation tools (Python, Mathematica)
+      - Development and management of courses in various areas of physics and programming (C, Python, Mathematica)
+      - Supervision of Bachelor theses
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [cpp(), c(), python(), golang()],
+        tags: [cpp(), c(), python(), mathematica(), openmpi(), golang()],
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],
+    },
+    {
+      role: 'Software Engineer',
+      company: 'University of Innsbruck, Department of Microbiology',
+      image: import('@/assets/logos/uibk-logo.png'),
+      dates: [new Date('2016-01'), new Date('2016-10')],
+      description: `
+      - Research and development of automated microscope image analysis for sewage purification
+      plants
+      - 4th Place CAST Technology Award
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [python(), mathematica()],
+      },
+      links: [],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;

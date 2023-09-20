@@ -23,6 +23,7 @@ import {
   cpp,
   python,
   c,
+  openmpi,
 } from '../helpers/skills';
 
 const portfolioSectionData = {
@@ -146,6 +147,33 @@ const portfolioSectionData = {
       links: [website({ url: 'https://strangeattractors.art/' }), demo({ url: 'https://strangeattractors.art/demo' })],
     },
     {
+      name: 'PRACE Project RA5453',
+      // image: import('@/assets/logos/strange-attractors-logo.png'),
+      dates: [new Date('2020-10'), new Date('2021-10')],
+      details: [
+        { label: 'Team size', value: '3 person' },
+        { label: 'My role', value: ['Full-stack Engineer', 'Manager'] },
+        { label: 'Company', value: 'Univeristy Innsbruck' },
+        { label: 'Category', value: ['Astrophysics', 'Hydrodynamics', 'HPC'] },
+      ],
+      // pdfDetails: [
+      //   { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
+      //   { label: 'Repository', value: 'https://github.com/mark-freeman/golden-bulls', url: '#' },
+      // ],
+      // screenshots: [
+      //   { src: import('@/assets/portfolio/strange-attractors/sa1.png'), alt: 'First screenshot' },
+      //   { src: import('@/assets/portfolio/strange-attractors/sa2.png'), alt: 'First screenshot' },
+      //   { src: import('@/assets/portfolio/strange-attractors/sa4.png'), alt: 'First screenshot' },
+      // ],
+      description:
+        'Particle acceleration and gamma-ray emission in the LS5039 system | 27.2M CPUh on the JoliotCurie Rome HPC infrastructure | Parallel code execution of CRONOS on >12k cores',
+      tagsList: {
+        title: 'Technologies',
+        tags: [cpp(), openmpi()],
+      },
+      links: [],
+    },
+    {
       name: 'Cronos',
       // image: import('@/assets/logos/strange-attractors-logo.png'),
       dates: [new Date('2021-08'), new Date('2021-10')],
@@ -168,7 +196,7 @@ const portfolioSectionData = {
         'In tristique vulputate augue vel egestas. Quisque ac imperdiet tortor, at lacinia ex. Duis vel ex hendrerit, commodo odio sed, aliquam enim. Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi. Nunc malesuada leo et est iaculis facilisis.',
       tagsList: {
         title: 'Technologies',
-        tags: [cpp(), python(), c()],
+        tags: [cpp(), python(), openmpi()],
       },
       links: [],
     },
