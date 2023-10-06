@@ -22,7 +22,7 @@ const educationSectionData = {
       - Non-thermal emission processes 
       - Focus: Gamma-ray binaries
       `,
-      links: [website({ url: '#' })],
+      links: [website({ url: 'https://www.uibk.ac.at/en/' })],
       details: [
         {
           label: 'Degree',
@@ -39,19 +39,20 @@ const educationSectionData = {
       institution: 'Leopold-Franzens-Universität Innsbruck, Austria',
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2015.10'), new Date('2017.10')],
-      description: `
-      - Implementation of relativistic hydrodynamics in CRONOS
-      - Visualisation tools 
-      - Application to study the wind interaction in gamma-ray binaries.
-      `,
-      links: [website({ url: '#' })],
+      description: '',
+      // description: `
+      // - Implementation of relativistic hydrodynamics in CRONOS
+      // - Visualisation tools
+      // - Application to study the wind interaction in gamma-ray binaries.
+      // `,
+      links: [website({ url: 'https://www.uibk.ac.at/en/' })],
       details: [
         {
           label: 'Degree',
           value: 'Master of Science (MSc)',
         },
         {
-          label: 'Research Topic',
+          label: 'Thesis Title',
           value: 'Relativistic Hydrodynamics in Gamma-Ray Binaries',
         },
       ],
@@ -61,11 +62,12 @@ const educationSectionData = {
       institution: 'Leopold-Franzens-Universität Innsbruck, Austria',
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2012.10'), new Date('2015.08')],
-      description: `
-      - Development of a C++ tool to calculate synchrotron emission
-      - Application to simulated data of Colliding-Wind-Binaries
-      `,
-      links: [website({ url: '#' })],
+      description: '',
+      // description: `
+      // - Development of a C++ tool to calculate synchrotron emission
+      // - Application to simulated data of Colliding-Wind-Binaries
+      // `,
+      links: [website({ url: 'https://www.uibk.ac.at/en/' })],
       details: [
         {
           label: 'Degree',

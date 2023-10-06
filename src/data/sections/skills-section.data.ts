@@ -44,7 +44,7 @@ const skillsSectionData = {
         }),
         solidity({
           level: 5,
-          description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
+          // description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
         }),
         golang({ level: 4 }),
         mathematica({ level: 4 }),
@@ -62,7 +62,7 @@ const skillsSectionData = {
       skills: [
         { icon: 'circle-flags:de', name: 'German - Native' },
         { icon: 'circle-flags:gb', name: 'English - Full professional proficiency' },
-        { icon: 'circle-flags:it', name: 'Italian - Limited working proficiency' },
+        { icon: 'circle-flags:it', name: 'Italian - Limited professional proficiency' },
       ],
     },
   ],

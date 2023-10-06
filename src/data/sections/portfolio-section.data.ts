@@ -56,7 +56,7 @@ const portfolioSectionData = {
       screenshots: [{ src: import('@/assets/portfolio/meth-architecture.jpeg'), alt: 'Architecture' }],
       description: `
       Upcoming Ethereum liquid staking protocol operated by Mantle DAO.
-      The system was designed to be extremely durable and to live for many years, aiming to handle $1B+ in assets in its final form.
+      The protocol was designed to be extremely durable and to live for many years, aiming to handle $1B+ in assets in its final form.
       `,
       tagsList: {
         title: 'Technologies',

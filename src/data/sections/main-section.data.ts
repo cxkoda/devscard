@@ -1,6 +1,6 @@
 import type { MainSection } from '@/types/sections/main-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { github, linkedin, twitter } from '../helpers/links';
+import { github, linkedin, twitter, email } from '../helpers/links';
 
 const mainSectionData = {
   config: {
@@ -12,22 +12,18 @@ const mainSectionData = {
   image: import('@/assets/my-image.png'),
   fullName: 'David Huber, PhD',
   role: 'Senior Software Engineer',
-  details: [
-    // { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
-    { label: 'Email', value: 'me@david-huber.eu', url: 'mailto:me@david-huber.eu' },
-    { label: 'Based in', value: 'Innsbruck, Austria' },
-    { label: 'GitHub', value: '/cxkoda', url: 'https://github.com' },
-    { label: 'Website', value: 'david-huber.eu', url: '/', fullRow: true },
-  ],
+  details: [{ label: 'Email', value: 'me@david-huber.eu', url: 'mailto:me@david-huber.eu' }],
   pdfDetails: [
-    // { label: 'Phone', value: '605 475 6961' },
     { label: 'Email', value: 'me@david-huber.eu' },
-    { label: 'LinkedIn', value: '/in/dave-huber', url: 'https://linkedin.com' },
-    { label: 'GitHub', value: '/cxkoda', url: 'https://github.com' },
-    { label: 'Website', value: 'david-huber.eu', url: '/', fullRow: true },
+    { label: 'LinkedIn', value: 'dave-huber', url: 'https://linkedin.com/in/dave-huber' },
+    { label: 'GitHub', value: 'cxkoda', url: 'https://github.com/cxkoda' },
+    { label: 'Website', value: 'david-huber.eu', url: 'https://david-huber.eu', fullRow: true },
   ],
-  description:
-    'Tech savvy computational physicist turned software engineer with strong theoretical and practical skills and a passion for complex problems.\nReceived a PhD in high-energy astroparticle physics working on relativistic fluid models for HPC infrastructure.\nNow working in web3 developing custom smart-contract and backend solutions with a passion for in-chain genart.',
+  description: `
+  I'm a computational physicist turned software engineer with strong theoretical and practical skills and a passion for complex problems.\n\n
+  
+  I have received a PhD in high-energy astroparticle physics working on relativistic fluid models for HPC infrastructure. Currently I'm working in web3 developing custom smart-contract and backend solutions with a passion for on-chain generative art and home espresso making.
+  `,
   tags: [{ name: 'Open for freelance' }, { name: 'Open for hire' }, { name: 'Working on side project' }],
   action: {
     label: 'Download CV',
@@ -35,6 +31,7 @@ const mainSectionData = {
     downloadedFileName: 'CV-David_Huber.pdf',
   },
   links: [
+    email({ url: 'mailto:me@david-huber.eu' }),
     github({ url: 'https://github.com/cxkoda' }),
     linkedin({ url: 'https://www.linkedin.com/in/dave-huber' }),
     twitter({ url: 'https://twitter.com/cxkoda' }),

@@ -41,6 +41,11 @@ export const pinterest = createLinkFactory({
   icon: 'fa6-brands:pinterest',
 });
 
+export const email = createLinkFactory({
+  name: 'Email',
+  icon: 'fa6-solid:envelope',
+});
+
 // CODE
 
 export const github = createLinkFactory({

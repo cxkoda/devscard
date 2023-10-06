@@ -41,10 +41,10 @@ const experienceSectionData = {
       description: `
         - Lead smart-contract engineer:
           - Internal consulting on blockchain related decisions for various projects
-          - Design and implement a modular contract infrastructure to facilitate the company's and third-party NFT projects supporting a broad variety of sales mechanisms.
+          - Design and implementation of a modular contract infrastructure to facilitate the company's and third-party NFT projects supporting a broad variety of sales mechanisms.
         - Open source projects:
-          - [Solidify](https://github.com/proofxyz/solidify): A golang + solidity library aimed to make storing arbitrary data on EVM blockchains as easy and efficient as possible.
-          - [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds): Develop a smart-contract rendering suite to generate the Moonbirds artwork from compressed image layers stored on-chain (using solidify). This involved on-chain alpha-blending, image resizing, decompressing, encoding, etc, and was heavily optimized through gas profiling and low-level assembly.
+          - [Solidify](https://github.com/proofxyz/solidify): A golang + solidity library to make storing arbitrary data on EVM blockchains as easy and efficient as possible.
+          - [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds): A smart-contract rendering suite to generate the Moonbirds artwork from compressed image layers stored on-chain (using solidify). The project involved on-chain alpha-blending, image resizing, decompressing, encoding, etc, and was heavily optimized through gas profiling and low-level assembly.
         - Research:
           - [EIP-6464](https://eips.ethereum.org/EIPS/eip-6464): Extending ERC-721 to allow multiple operator approval on a per-token basis
           - [EIP-7526](https://eips.ethereum.org/EIPS/eip-7526): A mechanism design approach to on-chain NFT royalty enforcement
@@ -88,7 +88,7 @@ const experienceSectionData = {
       description: `
         - Collaborate with clients to define project requirements and design secure and efficient smart-contract solutions and related backends.
         - Write clean, well-documented Solidity and golang code for applications on Ethereum.
-        - Conduct thorough code reviews and security audits to identify and rectify vulnerabilities, ensuring the safety of smart contracts.
+        - Conduct thorough code reviews and work with security auditors to identify and rectify vulnerabilities, ensuring the safety of smart contracts and backend solutions.
         - Optimize gas efficiency and reduce transaction costs through code optimizations and gas fee analysis.
         - Perform numerical simulations and analyses to inform technical design decisions.
         - Collaborate with UI/UX designers, and product managers to deliver end-to-end blockchain solutions.
@@ -106,8 +106,8 @@ const experienceSectionData = {
       dates: [new Date('2017-09'), new Date('2021-12')],
       description: `
       - Research within the scope of my PhD project: "Relativistic Fluid Modelling of Gamma-Ray Binary Emission"
-      - Development of numerical models for relativistic hydrodynamics integrated within CRONOS aimed for high-performance computing infrastructure (C++)
-      - Development of visualisation tools (Python, Mathematica)
+      - Development of numerical models for relativistic hydrodynamics integrated within CRONOS aimed for high-performance computing infrastructure
+      - Development of visualisation tools
       - Development and management of courses in various areas of physics and programming (C, Python, Mathematica)
       - Supervision of Bachelor theses
       `,
@@ -123,9 +123,8 @@ const experienceSectionData = {
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2016-01'), new Date('2016-10')],
       description: `
-      - Research and development of automated microscope image analysis for sewage purification
-      plants
-      - 4th Place CAST Technology Award
+      - Research and development of an automated microscope image analysis framework (Obsidian) for sewage purification plants to infer operation critical parameters.
+      - Received the CAST Technology Award
       `,
       tagsList: {
         title: 'Technologies',
