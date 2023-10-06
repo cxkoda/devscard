@@ -16,7 +16,7 @@ const config = {
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {
-    footer: 'For more detailed information see also cv.david-huber.eu',
+    footer: 'For a more detailed CV see also https://cv.david-huber.eu/',
   },
 } as const satisfies ReadonlyDeep<Config>;
 
