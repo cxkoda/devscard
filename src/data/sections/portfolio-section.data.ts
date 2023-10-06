@@ -171,8 +171,8 @@ const portfolioSectionData = {
       //   { src: import('@/assets/portfolio/strange-attractors/sa4.png'), alt: 'First screenshot' },
       // ],
       description: `
-      - High-resolution simulation of the dynamic fluid interaction, turbulence, particle acceleration and gamma-ray emission in the LS5039 system over multiple using a relativistic hydrodynamic model 
-      - Project grant for 27.2M CPUh on the JoliotCurie Rome HPC infrastructure
+      High-resolution simulation of the dynamic fluid interaction, turbulence, particle acceleration and gamma-ray emission in the LS5039 system over multiple using a relativistic hydrodynamic model.
+      - Project grant for 27.2M CPUh on the [Joliot Curie](https://www-hpc.cea.fr/en/Joliot-Curie.html) Rome HPC infrastructure
       - Parallel code execution of the CRONOS code on >12k cores
       `,
       tagsList: {

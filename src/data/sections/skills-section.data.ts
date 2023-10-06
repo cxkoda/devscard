@@ -39,9 +39,6 @@ const skillsSectionData = {
     {
       title: 'I already know',
       skills: [
-        espresso({
-          level: 5,
-        }),
         solidity({
           level: 5,
           // description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
@@ -51,6 +48,9 @@ const skillsSectionData = {
         cpp({ level: 4 }),
         python({ level: 3 }),
         postgreSql({ level: 3 }),
+        espresso({
+          level: 5,
+        }),
       ],
     },
     {

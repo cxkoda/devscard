@@ -86,12 +86,12 @@ const experienceSectionData = {
       image: import('@/assets/logos/cxkoda.png'),
       dates: [new Date('2022-01'), null],
       description: `
-        - Collaborate with clients to define project requirements and design secure and efficient smart-contract solutions and related backends.
-        - Write clean, well-documented Solidity and golang code for applications on Ethereum.
-        - Conduct thorough code reviews and work with security auditors to identify and rectify vulnerabilities, ensuring the safety of smart contracts and backend solutions.
-        - Optimize gas efficiency and reduce transaction costs through code optimizations and gas fee analysis.
-        - Perform numerical simulations and analyses to inform technical design decisions.
-        - Collaborate with UI/UX designers, and product managers to deliver end-to-end blockchain solutions.
+        - Collaboration with clients to define project requirements
+        - Design and delivery of secure and efficient smart-contract solutions and related backends
+        - Analysis and optimization of smart-contract gas efficiencies to reduce transaction and deployment costs
+        - Thorough code reviews and collaboration with security auditors to identify and rectify vulnerabilities, ensuring the safety of smart contracts and backend solutions
+        - Numerical simulations and analyses to inform technical design decisions
+        - Collaboration with UI/UX designers, and product managers to deliver end-to-end blockchain solutions
       `,
       tagsList: {
         title: 'Technologies',
@@ -118,12 +118,12 @@ const experienceSectionData = {
       links: [twitter({ url: '#' }), github({ url: '#' })],
     },
     {
-      role: 'Software Engineer',
+      role: 'Software and Research Engineer',
       company: 'University of Innsbruck, Department of Microbiology',
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2016-01'), new Date('2016-10')],
       description: `
-      - Research and development of an automated microscope image analysis framework (Obsidian) for sewage purification plants to infer operation critical parameters.
+      - Research and development of an automated microscope image analysis framework (Obsidian) for sewage purification plants to infer operation critical parameters
       - Received the CAST Technology Award
       `,
       tagsList: {

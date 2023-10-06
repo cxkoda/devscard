@@ -54,6 +54,8 @@ const main = async () => {
   await browser.close();
 
   child.kill();
+
+  console.log('done');
 };
 
 main();

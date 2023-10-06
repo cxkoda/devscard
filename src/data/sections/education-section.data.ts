@@ -39,7 +39,7 @@ const educationSectionData = {
       institution: 'Leopold-Franzens-Universität Innsbruck, Austria',
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2015.10'), new Date('2017.10')],
-      description: '',
+      description: ``,
       // description: `
       // - Implementation of relativistic hydrodynamics in CRONOS
       // - Visualisation tools

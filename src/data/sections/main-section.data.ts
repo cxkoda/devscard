@@ -9,7 +9,7 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.png'),
+  image: import('@/assets/my-image.jpeg'),
   fullName: 'David Huber, PhD',
   role: 'Senior Software Engineer',
   details: [{ label: 'Email', value: 'me@david-huber.eu', url: 'mailto:me@david-huber.eu' }],
