@@ -22,7 +22,7 @@ const mainSectionData = {
   description: `
   I'm a computational physicist turned software engineer with strong theoretical and practical skills and a passion for complex problems.\n\n
   
-  I have received a PhD in high-energy astroparticle physics working on relativistic fluid models for HPC infrastructure. Currently I'm working in web3 developing custom smart-contract and backend solutions with a passion for on-chain generative art and home espresso making.
+  I received a PhD in high-energy astroparticle physics working on relativistic fluid models for HPC infrastructure. Currently, I'm working in web3, developing custom smart-contract and backend solutions with a passion for on-chain generative art and home espresso making.
   `,
   tags: [{ name: 'Open for freelance' }, { name: 'Open for hire' }, { name: 'Working on side project' }],
   action: {
