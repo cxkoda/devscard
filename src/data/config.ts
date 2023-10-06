@@ -16,8 +16,7 @@ const config = {
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {
-    footer:
-      'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process.',
+    footer: 'For more detailed information see also cv.david-huber.eu',
   },
 } as const satisfies ReadonlyDeep<Config>;
 
