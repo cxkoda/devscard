@@ -25,6 +25,7 @@ import {
   supabase,
   tailwindCss,
   typescript,
+  espresso,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -38,19 +39,18 @@ const skillsSectionData = {
     {
       title: 'I already know',
       skills: [
+        espresso({
+          level: 5,
+        }),
         solidity({
           level: 5,
           description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
         }),
         golang({ level: 4 }),
         mathematica({ level: 4 }),
-        cpp({ level: 3 }),
+        cpp({ level: 4 }),
         python({ level: 3 }),
-        postgreSql({ level: 2 }),
-        typescript({
-          level: 2,
-          description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-        }),
+        postgreSql({ level: 3 }),
       ],
     },
     {

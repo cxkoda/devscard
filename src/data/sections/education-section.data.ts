@@ -15,8 +15,13 @@ const educationSectionData = {
       institution: 'Leopold-Franzens-Universität Innsbruck, Austria',
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2017.10'), new Date('2022.01')],
-      description:
-        'Numerical models in C++ for HPC-applications | Turbulent fluid simulations in 3D | Dynamically coupled particle transport models | Non-thermal emission processes | Focus: Gamma-ray binaries',
+      description: `
+      - Numerical models in C++ for HPC-applications
+      - Turbulent fluid simulations in 3D
+      - Dynamically coupled particle transport models 
+      - Non-thermal emission processes 
+      - Focus: Gamma-ray binaries
+      `,
       links: [website({ url: '#' })],
       details: [
         {
@@ -34,8 +39,11 @@ const educationSectionData = {
       institution: 'Leopold-Franzens-Universität Innsbruck, Austria',
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2015.10'), new Date('2017.10')],
-      description:
-        'Implementation of relativistic hydrodynamics in CRONOS | Visualisatoin tools | Application to study the wind interaction in gamma-ray binaries.',
+      description: `
+      - Implementation of relativistic hydrodynamics in CRONOS
+      - Visualisation tools 
+      - Application to study the wind interaction in gamma-ray binaries.
+      `,
       links: [website({ url: '#' })],
       details: [
         {
@@ -53,8 +61,10 @@ const educationSectionData = {
       institution: 'Leopold-Franzens-Universität Innsbruck, Austria',
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2012.10'), new Date('2015.08')],
-      description:
-        'Development of a C++ tool to calculate synchrotron emission | Application to simulated data of Colliding-Wind-Binaries',
+      description: `
+      - Development of a C++ tool to calculate synchrotron emission
+      - Application to simulated data of Colliding-Wind-Binaries
+      `,
       links: [website({ url: '#' })],
       details: [
         {

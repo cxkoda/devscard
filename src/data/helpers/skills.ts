@@ -270,3 +270,10 @@ export const mathematica = createSkillFactory({
   iconColor: '#DD1100',
   url: 'https://www.wolfram.com/mathematica/',
 });
+
+export const espresso = createSkillFactory({
+  name: 'Espresso',
+  icon: 'fa6-solid:mug-hot',
+  iconColor: '#aaaaaa',
+  url: 'https://www.wolfram.com/mathematica/',
+});

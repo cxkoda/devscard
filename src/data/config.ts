@@ -13,7 +13,7 @@ const config = {
   meta: {
     title: 'David Huber - Senior Software Engineer',
     description: 'Computational physicist gone rogue.',
-    faviconPath: '/src/assets/my-image.jpeg',
+    faviconPath: '/src/assets/my-image.png',
   },
   pdf: {
     footer:

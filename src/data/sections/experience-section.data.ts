@@ -39,10 +39,15 @@ const experienceSectionData = {
       image: import('@/assets/logos/proof-logo.jpeg'),
       dates: [new Date('2022-08'), null],
       description: `
-        - Head of smart-contract engineering
-        - [EIP-6464](https://eips.ethereum.org/EIPS/eip-6464): Extending ERC-721 to allow multiple operator approval on a per-token basis
-        - [Solidify](https://github.com/proofxyz/solidify): A golang + solidity library aimed to make storing arbitrary data on EVM blockchains as easy and efficient as possible.
-        - [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds): On-chain rendering suite to generate the Moonbirds assets from compressed image layers stored on-chain. Performs on-chain alpha-blending, image resizing, encoding, etc. Optimized using inline assembly and gas profiling.
+        - Lead smart-contract engineer:
+          - Internal consulting on blockchain related decisions for various projects
+          - Design and implement a modular contract infrastructure to facilitate the company's and third-party NFT projects supporting a broad variety of sales mechanisms.
+        - Open source projects:
+          - [Solidify](https://github.com/proofxyz/solidify): A golang + solidity library aimed to make storing arbitrary data on EVM blockchains as easy and efficient as possible.
+          - [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds): Develop a smart-contract rendering suite to generate the Moonbirds artwork from compressed image layers stored on-chain (using solidify). This involved on-chain alpha-blending, image resizing, decompressing, encoding, etc, and was heavily optimized through gas profiling and low-level assembly.
+        - Research:
+          - [EIP-6464](https://eips.ethereum.org/EIPS/eip-6464): Extending ERC-721 to allow multiple operator approval on a per-token basis
+          - [EIP-7526](https://eips.ethereum.org/EIPS/eip-7526): A mechanism design approach to on-chain NFT royalty enforcement
       `,
       tagsList: {
         title: 'Technologies',
@@ -76,19 +81,21 @@ const experienceSectionData = {
     //   ],
     // },
     {
-      role: 'Blockchain Engineer',
+      role: 'Blockchain and Research Engineer',
       company: 'Freelance',
-      // image: import('@/assets/logos/facebook-logo.png'),
+      image: import('@/assets/logos/cxkoda.png'),
       dates: [new Date('2022-01'), null],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+        - Collaborate with clients to define project requirements and design secure and efficient smart-contract solutions and related backends.
+        - Write clean, well-documented Solidity and golang code for applications on Ethereum.
+        - Conduct thorough code reviews and security audits to identify and rectify vulnerabilities, ensuring the safety of smart contracts.
+        - Optimize gas efficiency and reduce transaction costs through code optimizations and gas fee analysis.
+        - Perform numerical simulations and analyses to inform technical design decisions.
+        - Collaborate with UI/UX designers, and product managers to deliver end-to-end blockchain solutions.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [ethereum(), solidity(), golang(), python(), docker()],
+        tags: [ethereum(), solidity(), golang(), mathematica(), python(), docker()],
       },
       links: [website({ url: 'https://david-huber.eu' }), twitter({ url: 'https://twitter.com/cxkoda' })],
     },
@@ -98,8 +105,8 @@ const experienceSectionData = {
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2017-09'), new Date('2021-12')],
       description: `
-      - Research within the scope of my PhD project
-      - Development of numerical models for relativistic hydrodynamics integrated withing CRONOS aimed for high-performance computing infrastructure (C++)
+      - Research within the scope of my PhD project: "Relativistic Fluid Modelling of Gamma-Ray Binary Emission"
+      - Development of numerical models for relativistic hydrodynamics integrated within CRONOS aimed for high-performance computing infrastructure (C++)
       - Development of visualisation tools (Python, Mathematica)
       - Development and management of courses in various areas of physics and programming (C, Python, Mathematica)
       - Supervision of Bachelor theses

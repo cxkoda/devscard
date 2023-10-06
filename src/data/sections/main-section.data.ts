@@ -16,7 +16,8 @@ const mainSectionData = {
     // { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
     { label: 'Email', value: 'me@david-huber.eu', url: 'mailto:me@david-huber.eu' },
     { label: 'Based in', value: 'Innsbruck, Austria' },
-    // { label: 'Salary range', value: '18 000 - 25 000 PLN' },
+    { label: 'GitHub', value: '/cxkoda', url: 'https://github.com' },
+    { label: 'Website', value: 'david-huber.eu', url: '/', fullRow: true },
   ],
   pdfDetails: [
     // { label: 'Phone', value: '605 475 6961' },
