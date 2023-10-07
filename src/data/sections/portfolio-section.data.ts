@@ -55,14 +55,21 @@ const portfolioSectionData = {
       // ],
       screenshots: [{ src: import('@/assets/portfolio/meth-architecture.jpeg'), alt: 'Architecture' }],
       description: `
-      Upcoming Ethereum liquid staking protocol operated by Mantle DAO  aiming to handle $1B+ in assets in its final form
-      - Designed and implemented the contract infrastructure underpinning the staking protocol 
+      Upcoming Ethereum liquid staking protocol operated by Mantle DAO aimed to handle $1B+ in assets in its final form.
+      - Co-designed the high-level smart-contract and off-chain service architecture underpinning the protocol
+      - Implemented various parts (~40%) of the smart-contract infrastructure  
+      - Collaborated with auditors to identify and rectify vulnerabilities
       `,
       tagsList: {
         title: 'Technologies',
         tags: [solidity(), golang(), docker(), prometheus()],
       },
-      links: [website({ url: 'https://www.mantle.xyz/' })],
+      links: [
+        website({ url: 'https://www.mantle.xyz/' }),
+        website({
+          url: 'https://etherscan.io/advanced-filter?fadd=0x207e804758e28f2b3fd6e4219671b327100b82f8&mtd=0x60806040%7e0x60806040&age=2023-10-05%7e2023-10-07',
+        }),
+      ],
     },
     {
       name: 'gm. studio',
@@ -143,10 +150,8 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/strange-attractors/sa4.png'), alt: 'Third screenshot' },
       ],
       description: `
-      An interactive, generative art project that simulates multi-dimensional, chaotic systems using nothing but Ethereum smart contracts.
-      The project features on-chain numerical solution of multidimensional differential equations, image generation and participatory elements without any off-chain dependencies. 
-
-      - Conceptualized and implemented the project, its contracts and UI as sole developer generating 170ETH in revenue
+      An interactive, generative art project that simulates multi-dimensional, chaotic systems using nothing but Ethereum smart contracts. The project features on-chain numerical solution of multidimensional differential equations, image generation and participatory elements without any off-chain dependencies. 
+      - Conceptualized and implemented the project, its contracts and UI as sole developer, generating 160ETH in revenue
       `,
       tagsList: {
         title: 'Technologies',
