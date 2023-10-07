@@ -37,7 +37,7 @@ const experienceSectionData = {
       role: 'Senior blockchain engineer',
       company: 'PROOF',
       image: import('@/assets/logos/proof-logo.jpeg'),
-      dates: [new Date('2022-08'), null],
+      dates: [new Date('2022-08'), new Date('2023-10')],
       description: `
       In my position as lead smart-contract engineer, I
         - Consulted internally on blockchain related decisions for 15+ projects contributing to their smooth execution
