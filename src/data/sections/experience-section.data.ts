@@ -39,13 +39,12 @@ const experienceSectionData = {
       image: import('@/assets/logos/proof-logo.jpeg'),
       dates: [new Date('2022-08'), null],
       description: `
-        - Lead smart-contract engineer:
-          - Internal consulting on blockchain related decisions for various projects
-          - Design and implementation of a modular contract infrastructure to facilitate the company's and third-party NFT projects supporting a broad variety of sales mechanisms.
-        - Open source projects:
-          - [Solidify](https://github.com/proofxyz/solidify): A golang + solidity library to make storing arbitrary data on EVM blockchains as easy and efficient as possible.
-          - [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds): A smart-contract rendering suite to generate the Moonbirds artwork from compressed image layers stored on-chain (using solidify). The project involved on-chain alpha-blending, image resizing, decompressing, encoding, etc, and was heavily optimized through gas profiling and low-level assembly.
-        - Research:
+      In my position as lead smart-contract engineer, I
+        - Consulted internally on blockchain related decisions for 15+ projects contributing to their smooth execution
+        - Designed and implemented a modular contract infrastructure with >25k lines of Solidity to facilitate the company's and 3rd projects
+        - Developed [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds); A low-level optimized, smart-contract rendering suite for the Moonbirds collection using compressed image layers stored on-chain with [Solidify](https://github.com/proofxyz/solidify) ; achieving less than 0.5 ETH in deployment costs.
+        - Developed and released [Solidify](https://github.com/proofxyz/solidify); An open-source golang + solidity library to make storing arbitrary data on EVM blockchains as easy and efficient as possible.
+        - Contributed to the broader Ethereum ecosystem by co-authoring 2 EIPs:
           - [EIP-6464](https://eips.ethereum.org/EIPS/eip-6464): Extending ERC-721 to allow multiple operator approval on a per-token basis
           - [EIP-7526](https://eips.ethereum.org/EIPS/eip-7526): A mechanism design approach to on-chain NFT royalty enforcement
       `,
@@ -85,13 +84,22 @@ const experienceSectionData = {
       company: 'Freelance',
       image: import('@/assets/logos/cxkoda.png'),
       dates: [new Date('2022-01'), null],
+      // clients:
+      // gm studio
+      // alba
+      // twofiftysix
+      // divergence
+      // kai
+      // constant
+      //
+      // ethier
+      // - Numerical simulations and analyses to inform technical design decisions
+      // - Collaboration with UI/UX designers, and product managers to deliver end-to-end blockchain solutions
       description: `
-        - Collaboration with clients to define project requirements
-        - Design and delivery of secure and efficient smart-contract solutions and related backends
-        - Analysis and optimization of smart-contract gas efficiencies to reduce transaction and deployment costs
-        - Thorough code reviews and collaboration with security auditors to identify and rectify vulnerabilities, ensuring the safety of smart contracts and backend solutions
-        - Numerical simulations and analyses to inform technical design decisions
-        - Collaboration with UI/UX designers, and product managers to deliver end-to-end blockchain solutions
+        - Collaborated with 6+ clients and their teams to define project requirements to ensure a smooth execution
+        - Designed and delivered secure and efficient smart-contract solutions and related backends
+        - Collaborated with 2 security auditing firms to identify and rectify vulnerabilities, ensuring the safety of delivered products
+        - Contributed over 8.5k lines of code (~30%) to the open-source library [Ethier](https://github.com/divergencetech/ethier)
       `,
       tagsList: {
         title: 'Technologies',
@@ -105,11 +113,11 @@ const experienceSectionData = {
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2017-09'), new Date('2021-12')],
       description: `
-      - Research within the scope of my PhD project: "Relativistic Fluid Modelling of Gamma-Ray Binary Emission"
-      - Development of numerical models for relativistic hydrodynamics integrated within CRONOS aimed for high-performance computing infrastructure
-      - Development of visualisation tools
-      - Development and management of courses in various areas of physics and programming (C, Python, Mathematica)
-      - Supervision of Bachelor theses
+      - Performed research within the scope of my PhD topic, contributing to 30+ research items including 3 articles as first author, published in high-impact, peer-reviewed journals 
+      - Developed and implemented numerical models for relativistic hydrodynamics for high-performance computing infrastructure with code execution on >12k parallel cores
+      - Received a [PRACE](https://prace-ri.eu/) project grant for over 27M CPUh on the [Joliot Curie](https://www-hpc.cea.fr/en/Joliot-Curie.html) Rome HPC infrastructure to investigate dynamical phenomena in the LS5039 system
+      - Developed, implemented and thought 4 undergraduate courses in various areas of physics and programming 
+      - Supervised and mentored 3 Bachelor projects with successful graduation 
       `,
       tagsList: {
         title: 'Technologies',
@@ -117,21 +125,21 @@ const experienceSectionData = {
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],
     },
-    {
-      role: 'Software and Research Engineer',
-      company: 'University of Innsbruck, Department of Microbiology',
-      image: import('@/assets/logos/uibk-logo.png'),
-      dates: [new Date('2016-01'), new Date('2016-10')],
-      description: `
-      - Research and development of an automated microscope image analysis framework (Obsidian) for sewage purification plants to infer operation critical parameters
-      - Received the CAST Technology Award
-      `,
-      tagsList: {
-        title: 'Technologies',
-        tags: [python(), mathematica()],
-      },
-      links: [],
-    },
+    // {
+    //   role: 'Software and Research Engineer',
+    //   company: 'University of Innsbruck, Department of Microbiology',
+    //   image: import('@/assets/logos/uibk-logo.png'),
+    //   dates: [new Date('2016-01'), new Date('2016-10')],
+    //   description: `
+    //   - Research and development of an automated microscope image analysis framework (Obsidian) for sewage purification plants to infer operation critical parameters
+    //   - Received the CAST Technology Award
+    //   `,
+    //   tagsList: {
+    //     title: 'Technologies',
+    //     tags: [python(), mathematica()],
+    //   },
+    //   links: [],
+    // },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;
 

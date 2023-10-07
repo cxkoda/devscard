@@ -55,8 +55,8 @@ const portfolioSectionData = {
       // ],
       screenshots: [{ src: import('@/assets/portfolio/meth-architecture.jpeg'), alt: 'Architecture' }],
       description: `
-      Upcoming Ethereum liquid staking protocol operated by Mantle DAO.
-      The protocol was designed to be extremely durable and to live for many years, aiming to handle $1B+ in assets in its final form.
+      Upcoming Ethereum liquid staking protocol operated by Mantle DAO  aiming to handle $1B+ in assets in its final form
+      - Designed and implemented the contract infrastructure underpinning the staking protocol 
       `,
       tagsList: {
         title: 'Technologies',
@@ -85,8 +85,8 @@ const portfolioSectionData = {
       // ],
       description: `
       The on-chain generative art platform by artists, for artists.
-
-      The studio was built from the ground up based on gmDAO's experience working with existing artistic platforms and the challenges they present to artists. All submissions received by the studio are presented blindly to the curation panel, meaning artists are selected purely on merit, not reputation.
+      - Developed the contract infrastructure underpinning the platform with 11+ collections launched, and over $2M generated in revenue.
+      - Contributed to the backend services handling the dynamic rendering of generative artworks 
       `,
       tagsList: {
         title: 'Technologies',
@@ -131,19 +131,22 @@ const portfolioSectionData = {
         { label: 'Company', value: 'None' },
         { label: 'Category', value: ['Web 3', 'In-chain Generative Art'] },
       ],
-      // pdfDetails: [
-      //   { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
-      //   { label: 'Repository', value: 'https://github.com/mark-freeman/golden-bulls', url: '#' },
-      // ],
+      pdfDetails: [
+        { label: 'Team size', value: '1 person' },
+        { label: 'My role', value: ['Full-stack Engineer', 'Manager'] },
+        { label: 'Company', value: 'None' },
+        { label: 'Category', value: ['Web 3', 'In-chain Generative Art'] },
+      ],
       screenshots: [
         { src: import('@/assets/portfolio/strange-attractors/sa1.png'), alt: 'First screenshot' },
-        { src: import('@/assets/portfolio/strange-attractors/sa2.png'), alt: 'First screenshot' },
-        { src: import('@/assets/portfolio/strange-attractors/sa4.png'), alt: 'First screenshot' },
+        { src: import('@/assets/portfolio/strange-attractors/sa2.png'), alt: 'Secondary screenshot' },
+        { src: import('@/assets/portfolio/strange-attractors/sa4.png'), alt: 'Third screenshot' },
       ],
       description: `
-      Strange Attractors is an interactive, generative art project that simulates multi-dimensional, chaotic systems using nothing but an Ethereum smart contract.
-      - Every step in the generation of the artworks, from numerically solving multidimensional differential equations to the rendering the images, is performed exclusively by smart-contracts without the need for external dependencies. 
-      - Collectors can greatly influence this process via an extensive UI, allowing them to freely customize various parameters of their pieces such as the viewing angle, color grading and distortions, giving the project a unique participatory element. 
+      An interactive, generative art project that simulates multi-dimensional, chaotic systems using nothing but Ethereum smart contracts.
+      The project features on-chain numerical solution of multidimensional differential equations, image generation and participatory elements without any off-chain dependencies. 
+
+      - Conceptualized and implemented the project, its contracts and UI as sole developer generating 170ETH in revenue
       `,
       tagsList: {
         title: 'Technologies',
@@ -151,36 +154,36 @@ const portfolioSectionData = {
       },
       links: [website({ url: 'https://strangeattractors.art/' }), demo({ url: 'https://strangeattractors.art/demo' })],
     },
-    {
-      name: 'PRACE Project RA5453',
-      image: import('@/assets/portfolio/prace.png'),
-      dates: [new Date('2020-10'), new Date('2021-10')],
-      details: [
-        { label: 'Team size', value: '3 person' },
-        { label: 'My role', value: ['Principal Researcher'] },
-        { label: 'Company', value: 'Univeristy Innsbruck' },
-        { label: 'Category', value: ['Astrophysics', 'Hydrodynamics', 'HPC'] },
-      ],
-      // pdfDetails: [
-      //   { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
-      //   { label: 'Repository', value: 'https://github.com/mark-freeman/golden-bulls', url: '#' },
-      // ],
-      // screenshots: [
-      //   { src: import('@/assets/portfolio/strange-attractors/sa1.png'), alt: 'First screenshot' },
-      //   { src: import('@/assets/portfolio/strange-attractors/sa2.png'), alt: 'First screenshot' },
-      //   { src: import('@/assets/portfolio/strange-attractors/sa4.png'), alt: 'First screenshot' },
-      // ],
-      description: `
-      High-resolution simulation of the dynamic fluid interaction, turbulence, particle acceleration and gamma-ray emission in the LS5039 system over multiple using a relativistic hydrodynamic model.
-      - Project grant for 27.2M CPUh on the [Joliot Curie](https://www-hpc.cea.fr/en/Joliot-Curie.html) Rome HPC infrastructure
-      - Parallel code execution of the CRONOS code on >12k cores
-      `,
-      tagsList: {
-        title: 'Technologies',
-        tags: [cpp(), openmpi()],
-      },
-      links: [website({ url: 'https://www.aanda.org/articles/aa/full_html/2023/09/aa45934-23/aa45934-23.html' })],
-    },
+    // {
+    //   name: 'PRACE Project RA5453',
+    //   image: import('@/assets/portfolio/prace.png'),
+    //   dates: [new Date('2020-10'), new Date('2021-10')],
+    //   details: [
+    //     { label: 'Team size', value: '3 person' },
+    //     { label: 'My role', value: ['Principal Researcher'] },
+    //     { label: 'Company', value: 'Univeristy Innsbruck' },
+    //     { label: 'Category', value: ['Astrophysics', 'Hydrodynamics', 'HPC'] },
+    //   ],
+    //   // pdfDetails: [
+    //   //   { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
+    //   //   { label: 'Repository', value: 'https://github.com/mark-freeman/golden-bulls', url: '#' },
+    //   // ],
+    //   // screenshots: [
+    //   //   { src: import('@/assets/portfolio/strange-attractors/sa1.png'), alt: 'First screenshot' },
+    //   //   { src: import('@/assets/portfolio/strange-attractors/sa2.png'), alt: 'First screenshot' },
+    //   //   { src: import('@/assets/portfolio/strange-attractors/sa4.png'), alt: 'First screenshot' },
+    //   // ],
+    //   description: `
+    //   High-resolution simulation of the dynamic fluid interaction, turbulence, particle acceleration and gamma-ray emission in the LS5039 system over multiple using a relativistic hydrodynamic model.
+    //   - Project grant for 27.2M CPUh on the [Joliot Curie](https://www-hpc.cea.fr/en/Joliot-Curie.html) Rome HPC infrastructure
+    //   - Parallel code execution of the CRONOS code on >12k cores
+    //   `,
+    //   tagsList: {
+    //     title: 'Technologies',
+    //     tags: [cpp(), openmpi()],
+    //   },
+    //   links: [website({ url: 'https://www.aanda.org/articles/aa/full_html/2023/09/aa45934-23/aa45934-23.html' })],
+    // },
     // {
     //   name: 'Cronos',
     //   // image: import('@/assets/logos/strange-attractors-logo.png'),

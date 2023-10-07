@@ -11,7 +11,7 @@ const parsedValue = Array.isArray(value) ? value.join(', ') : value;
 ---
 
 <div class:list={['flex gap-1 text-base font-normal text-gray-500', props.class]}>
-  <div class="text-base font-medium text-gray-700">{label}:</div>
+  <div class="font-medium text-gray-700">{label}:</div>
   {
     url ? (
       <a href={url} class="underline">

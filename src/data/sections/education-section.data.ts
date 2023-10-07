@@ -15,13 +15,14 @@ const educationSectionData = {
       institution: 'Leopold-Franzens-Universität Innsbruck, Austria',
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2017.10'), new Date('2022.01')],
-      description: `
-      - Numerical models in C++ for HPC-applications
-      - Turbulent fluid simulations in 3D
-      - Dynamically coupled particle transport models 
-      - Non-thermal emission processes 
-      - Focus: Gamma-ray binaries
-      `,
+      description: ``,
+      // `
+      // - Numerical models in C++ for HPC-applications
+      // - Turbulent fluid simulations in 3D
+      // - Dynamically coupled particle transport models
+      // - Non-thermal emission processes
+      // - Focus: Gamma-ray binaries
+      // `,
       links: [website({ url: 'https://www.uibk.ac.at/en/' })],
       details: [
         {
