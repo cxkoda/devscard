@@ -1,7 +1,9 @@
 import { exec } from 'node:child_process';
 import * as path from 'node:path';
-const chromium = require('chrome-aws-lambda');
-import * as puppeteer from 'puppeteer';
+
+const chromium = require('@sparticuz/chromium');
+const puppeteer = require('puppeteer-core');
+
 import { pdfPage } from 'puppeteer-report';
 
 const waitFor = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -35,11 +37,12 @@ const CV_DIR = path.join(__dirname, '..', 'public');
 const main = async () => {
   const child = exec('npm run dev');
 
-  const browser = await chromium.puppeteer.launch({
-    executablePath: await chromium.executablePath,
+  const browser = await puppeteer.launch({
+    executablePath: await chromium.executablePath(),
     args: chromium.args,
     defaultViewport: chromium.defaultViewport,
     headless: chromium.headless,
+    ignoreHTTPSErrors: true,
   });
 
   const page = await browser.newPage();
