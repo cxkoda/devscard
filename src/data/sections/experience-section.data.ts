@@ -34,7 +34,7 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Lead blockchain engineer',
+      role: 'Lead Blockchain Engineer',
       company: 'PROOF',
       image: import('@/assets/logos/proof-logo.jpeg'),
       dates: [new Date('2022-08'), new Date('2023-10')],
