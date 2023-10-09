@@ -34,7 +34,7 @@ const CV_DIR = path.join(__dirname, '..', 'public');
 
 const main = async () => {
   const child = exec('npm run dev');
-  const browser = await puppeteer.launch({
+  const browser = await chromium.puppeteer.launch({
     headless: 'new',
     executablePath: await chromium.executablePath,
   });
