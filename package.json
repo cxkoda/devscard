@@ -28,8 +28,7 @@
     "@floating-ui/dom": "1.4.4",
     "chrome-aws-lambda": "10.1.0",
     "iconify-icon": "1.0.8",
-    "nanoid": "4.0.2",
-    "puppeteer-core": "10.4.0"
+    "nanoid": "4.0.2"
   },
   "devDependencies": {
     "@astrojs/image": "0.17.2",
@@ -52,6 +51,7 @@
     "prettier": "2.8.8",
     "prettier-plugin-astro": "0.10.0",
     "prettier-plugin-tailwindcss": "0.3.0",
+    "puppeteer": "20.8.0",
     "puppeteer-report": "3.1.0",
     "rollup-plugin-visualizer": "5.9.2",
     "tailwindcss": "3.3.2",
