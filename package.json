@@ -10,7 +10,7 @@
     "pnpm": "please-use-npm"
   },
   "scripts": {
-    "postinstall": "npm run generate-favicons",
+    "postinstall": "npm run generate-favicons && npm run generate-pdf",
     "dev": "astro dev",
     "prebuild": "move-file ./src/pages/pdf.astro ./src/pages/_pdf.astro && npm run generate-favicons",
     "build": "astro build",

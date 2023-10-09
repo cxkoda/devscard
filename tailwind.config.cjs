@@ -13,13 +13,6 @@ module.exports = {
       primary: colors.indigo,
       gray: colors.gray,
     },
-    // fontSize: {
-    //   base: '0.8em',
-    //   sm: '0.75rem',
-    //   md: '0.85rem',
-    //   lg: '0.9rem',
-    //   '2xl': '1.0rem',
-    // },
     extend: {
       spacing: {
         18: '4.5rem',

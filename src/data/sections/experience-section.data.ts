@@ -41,12 +41,12 @@ const experienceSectionData = {
       description: `
       In my position as lead smart-contract engineer, I
         - Consulted internally on blockchain related decisions for 15+ projects contributing to their smooth execution
-        - Developed and maintained a modular smart-contract infrastructure with >25k lines of Solidity to facilitate the company's and 3rd projects
+        - Developed and maintained a [modular smart-contract infrastructure](https://github.com/proofxyz/solgo) with >25k lines of Solidity to facilitate the company's and 3rd projects, handling >2.5k ETH (>$4M) in primary transaction value and generating >13k ETH (>$20M) in secondary sales
         - Implemented [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds); A low-level optimized, smart-contract rendering suite for the Moonbirds collection using compressed image layers stored on-chain with [Solidify](https://github.com/proofxyz/solidify); achieving <0.5 ETH in deployment costs.
         - Developed and released [Solidify](https://github.com/proofxyz/solidify); An open-source golang + solidity library to make storing arbitrary data on EVM blockchains as easy and efficient as possible.
         - Contributed to the broader Ethereum ecosystem by co-authoring 2 EIPs:
           - [EIP-6464](https://eips.ethereum.org/EIPS/eip-6464): Extending ERC-721 to allow multiple operator approval on a per-token basis
-          - [EIP-7526](https://eips.ethereum.org/EIPS/eip-7526): A mechanism design approach to on-chain NFT royalty enforcement
+          - [EIP-7526](https://github.com/ethereum/EIPs/pull/7781): A mechanism design approach to on-chain NFT royalty enforcement
       `,
       tagsList: {
         title: 'Technologies',

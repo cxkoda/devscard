@@ -29,6 +29,8 @@ const retry = async ({ promise, retries, retryTime }: RetryOptions): GoToReturn 
   }
 };
 
+const CV_DIR = path.join(__dirname, '..', 'public');
+
 const main = async () => {
   const child = exec('npm run dev');
 
@@ -44,18 +46,20 @@ const main = async () => {
     retryTime: 1000,
   });
 
+  const fname = 'cv.pdf';
   await pdfPage(page, {
-    path: path.join(__dirname, '..', 'public', 'cv.pdf'),
+    path: path.join(CV_DIR, fname),
     format: 'A4',
     printBackground: true,
     margin: { top: '10mm', right: '10mm', bottom: '10mm', left: '10mm' },
   });
+  console.log(`${fname} has been created successfully`);
 
   await browser.close();
 
   child.kill();
 
-  console.log('done');
+  process.exit(0);
 };
 
 main();
