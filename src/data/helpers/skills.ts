@@ -261,7 +261,7 @@ export const noir = createSkillFactory({
 
 export const circom = createSkillFactory({
   name: 'Circom',
-  url: 'https://aztec.network/circom/',
+  url: 'https://iden3.io/circom',
 });
 
 export const mathematica = createSkillFactory({
@@ -275,5 +275,5 @@ export const espresso = createSkillFactory({
   name: 'Espresso',
   icon: 'fa6-solid:mug-hot',
   iconColor: '#aaaaaa',
-  url: 'https://www.wolfram.com/mathematica/',
+  url: 'https://www.sciencedirect.com/science/article/pii/S2590238519304102',
 });

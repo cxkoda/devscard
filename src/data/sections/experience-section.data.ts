@@ -34,12 +34,11 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior blockchain engineer',
+      role: 'Lead blockchain engineer',
       company: 'PROOF',
       image: import('@/assets/logos/proof-logo.jpeg'),
       dates: [new Date('2022-08'), new Date('2023-10')],
       description: `
-      In my position as lead smart-contract engineer, I
         - Consulted internally on blockchain related decisions for 15+ projects contributing to their smooth execution
         - Developed and maintained a [modular smart-contract infrastructure](https://github.com/proofxyz/solgo) with >25k lines of Solidity to facilitate the company's and 3rd projects, handling >2.5k ETH (>$4M) in primary transaction value and generating >13k ETH (>$20M) in secondary sales
         - Implemented [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds); A low-level optimized, smart-contract rendering suite for the Moonbirds collection using compressed image layers stored on-chain with [Solidify](https://github.com/proofxyz/solidify); achieving <0.5 ETH in deployment costs.
