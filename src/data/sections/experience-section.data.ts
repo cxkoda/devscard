@@ -40,11 +40,12 @@ const experienceSectionData = {
       dates: [new Date('2022-08'), new Date('2023-10')],
       description: `
         - Consulted internally on blockchain related decisions for 15+ projects ensuring their smooth execution
-        - Developed a [modular smart-contract infrastructure](https://github.com/proofxyz/solgo) with >25k lines of Solidity, handling >2.5k ETH (>$4M) in primary transaction value and generating >13k ETH (>$20M) in secondary revenue
+        - Developed a modular smart-contract infrastructure with >25k lines of Solidity, handling >2.5k ETH (>$4M) in primary transaction value and generating >13k ETH (>$20M) in secondary revenue
         - Implemented [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds); A low-level optimized, on-chain rendering suite for Moonbirds using compressed image layers deployed with [Solidify](https://github.com/proofxyz/solidify); achieving <0.5 ETH in deployment costs
-        - Designed [Solidify](https://github.com/proofxyz/solidify); A golang + solidity library to make storing arbitrary data on EVM blockchains easy and efficient.
+        - Released [Solidify](https://github.com/proofxyz/solidify); A golang + solidity library for efficient data storage on EVM blockchains
         - Contributed to the broader Ethereum ecosystem by co-authoring [EIP-6464](https://eips.ethereum.org/EIPS/eip-6464) and [EIP-7526](https://github.com/ethereum/EIPs/pull/7781)
       `,
+      // [modular smart-contract infrastructure](https://github.com/proofxyz/solgo)
       tagsList: {
         title: 'Technologies',
         tags: [ethereum(), solidity(), golang(), python(), docker()],
@@ -94,8 +95,8 @@ const experienceSectionData = {
       // - Collaboration with UI/UX designers, and product managers to deliver end-to-end blockchain solutions
       description: `
         - Collaborated with 6+ clients and their teams to define project requirements ensuring a smooth execution
-        - Delivered secure and efficient smart-contract solutions and related backends
-        - Collaborated with 2 security auditing firms to identify and rectify vulnerabilities, ensuring the safety of delivered products
+        - Delivered custom smart-contract solutions and related backends
+        - Collaborated with 2+ security auditing firms to identify and rectify vulnerabilities
         - Contributed over 8.5k lines of code (~30%) to the open-source library [Ethier](https://github.com/divergencetech/ethier)
       `,
       tagsList: {
@@ -110,10 +111,11 @@ const experienceSectionData = {
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2017-09'), new Date('2021-12')],
       description: `
-      - Contributed to 30+ research items including 3 articles as first author, published in high-impact, peer-reviewed journals 
-      - Developed numerical methods for high-performance computing infrastructure with code execution on >12k parallel cores
-      - Received a [PRACE](https://prace-ri.eu/) project grant for over 27M CPUh on the [Joliot Curie](https://www-hpc.cea.fr/en/Joliot-Curie.html) Rome HPC infrastructure to investigate dynamical phenomena in the LS5039 system
+      - Contributed to 30+ research items including 3 articles as first author, published in high-impact journals 
+      - Developed numerical methods for HPC infrastructure with parallel execution on >12k cores
+      - Received a [PRACE](https://prace-ri.eu/) project grant for >27M CPUh on the [Joliot Curie](https://www-hpc.cea.fr/en/Joliot-Curie.html) Rome infrastructure 
       `,
+      // - Received a [PRACE](https://prace-ri.eu/) project grant for >27M CPUh on the [Joliot Curie](https://www-hpc.cea.fr/en/Joliot-Curie.html) Rome infrastructure to investigate dynamical phenomena in the LS5039 system
       // - Developed, implemented and thought 4 undergraduate courses in various areas of physics and programming
       // - Supervised and mentored 3 Bachelor projects with successful graduation
       tagsList: {

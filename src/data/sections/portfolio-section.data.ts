@@ -44,10 +44,10 @@ const portfolioSectionData = {
       image: import('@/assets/logos/mantle-logo.jpg'),
       dates: [new Date('2023-05'), new Date('2023-10')],
       details: [
+        { label: 'Company', value: 'TwoFiftySix Labs' },
         { label: 'Team size', value: '5 person' },
         { label: 'My role', value: ['Architect', 'Smart-Contract Engineer'] },
-        { label: 'Company', value: 'TwoFiftySix Labs' },
-        { label: 'Category', value: ['Web 3', 'Liquid Staking'] },
+        // { label: 'Category', value: ['Web 3', 'Liquid Staking'] },
       ],
       // pdfDetails: [
       //   { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
@@ -55,7 +55,7 @@ const portfolioSectionData = {
       // ],
       screenshots: [{ src: import('@/assets/portfolio/meth-architecture.jpeg'), alt: 'Architecture' }],
       description: `
-      Upcoming Ethereum liquid staking protocol operated by Mantle DAO aimed to handle $1B+ in assets in its final form.
+      Upcoming Ethereum liquid staking protocol operated by Mantle DAO aimed to handle >$1B in assets.
       - Co-designed the high-level smart-contract and off-chain service architecture underpinning the protocol
       - Implemented various parts (~40%) of the smart-contract infrastructure  
       - Collaborated with auditors to identify and rectify vulnerabilities
@@ -76,10 +76,10 @@ const portfolioSectionData = {
       image: import('@/assets/logos/gmstudio-logo.jpeg'),
       dates: [new Date('2021-12'), null],
       details: [
-        { label: 'Team size', value: '4 person' },
-        { label: 'My role', value: ['Architect', 'Smart-contract Engineer', 'Backend Engineer', 'Curator'] },
         { label: 'Company', value: 'gm DAO' },
-        { label: 'Category', value: ['Web 3', 'Generative Art Platform'] },
+        { label: 'Team size', value: '4 person' },
+        { label: 'My role', value: ['Architect', 'Smart-contract/Backend Engineer'] },
+        // { label: 'Category', value: ['Web 3', 'Generative Art Platform'] },
       ],
       // pdfDetails: [
       //   { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
@@ -92,7 +92,7 @@ const portfolioSectionData = {
       // ],
       description: `
       The on-chain generative art platform by artists, for artists.
-      - Developed the contract infrastructure underpinning the platform with 11+ collections launched, and over $2M generated in revenue.
+      - Developed the smart-contract infrastructure with 11+ collections launched and >$2M generated in revenue
       - Contributed to the backend services handling the dynamic rendering of generative artworks 
       `,
       tagsList: {
@@ -133,16 +133,16 @@ const portfolioSectionData = {
       image: import('@/assets/logos/strange-attractors-logo.png'),
       dates: [new Date('2021-08'), new Date('2021-10')],
       details: [
-        { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: ['Full-stack Engineer', 'Manager'] },
+        // { label: 'Team size', value: '1 person' },
         { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web 3', 'In-chain Generative Art'] },
+        { label: 'My role', value: ['Full-stack Engineer', 'Manager'] },
+        // { label: 'Category', value: ['Web 3', 'In-chain Generative Art'] },
       ],
       pdfDetails: [
-        { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: ['Full-stack Engineer', 'Manager'] },
         { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web 3', 'In-chain Generative Art'] },
+        // { label: 'Team size', value: '1 person' },
+        { label: 'My role', value: ['Full-stack Engineer', 'Manager'] },
+        // { label: 'Category', value: ['Web 3', 'In-chain Generative Art'] },
       ],
       screenshots: [
         { src: import('@/assets/portfolio/strange-attractors/sa1.png'), alt: 'First screenshot' },
@@ -150,9 +150,10 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/strange-attractors/sa4.png'), alt: 'Third screenshot' },
       ],
       description: `
-      A generative art project, simulating multi-dimensional, chaotic systems using nothing but Ethereum smart contracts; featuring on-chain numerical solution of differential equations, image generation and holder participation without any off-chain dependencies. 
-      - Conceptualized and implemented the project, its contracts, and UI as sole developer generating 160 ETH in revenue
+      A generative art project featuring on-chain numerical solution of multi-dimensional differential equations, dynamic image generation and holder participation without any off-chain dependencies. 
+      - Conceptualized and implemented the project independently, generating 160 ETH in revenue
       `,
+      // A generative art project, simulating multi-dimensional, chaotic systems using nothing but Ethereum smart contracts; featuring on-chain numerical solution of differential equations, image generation and holder participation without any off-chain dependencies.
       tagsList: {
         title: 'Technologies',
         tags: [solidity(), nextJs(), typescript(), sass()],

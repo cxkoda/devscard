@@ -11,7 +11,7 @@ const educationSectionData = {
   },
   diplomas: [
     {
-      title: 'Computational High-Energy Astroparticle Physics',
+      title: 'PhD in Computational High-Energy Astroparticle Physics',
       institution: 'Leopold-Franzens-Universität Innsbruck, Austria',
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2017.10'), new Date('2022.01')],
