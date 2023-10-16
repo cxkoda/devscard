@@ -39,13 +39,11 @@ const experienceSectionData = {
       image: import('@/assets/logos/proof-logo.jpeg'),
       dates: [new Date('2022-08'), new Date('2023-10')],
       description: `
-        - Consulted internally on blockchain related decisions for 15+ projects contributing to their smooth execution
-        - Developed and maintained a [modular smart-contract infrastructure](https://github.com/proofxyz/solgo) with >25k lines of Solidity to facilitate the company's and 3rd projects, handling >2.5k ETH (>$4M) in primary transaction value and generating >13k ETH (>$20M) in secondary sales
-        - Implemented [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds); A low-level optimized, smart-contract rendering suite for the Moonbirds collection using compressed image layers stored on-chain with [Solidify](https://github.com/proofxyz/solidify); achieving <0.5 ETH in deployment costs.
-        - Developed and released [Solidify](https://github.com/proofxyz/solidify); An open-source golang + solidity library to make storing arbitrary data on EVM blockchains as easy and efficient as possible.
-        - Contributed to the broader Ethereum ecosystem by co-authoring 2 EIPs:
-          - [EIP-6464](https://eips.ethereum.org/EIPS/eip-6464): Extending ERC-721 to allow multiple operator approval on a per-token basis
-          - [EIP-7526](https://github.com/ethereum/EIPs/pull/7781): A mechanism design approach to on-chain NFT royalty enforcement
+        - Consulted internally on blockchain related decisions for 15+ projects ensuring their smooth execution
+        - Developed a [modular smart-contract infrastructure](https://github.com/proofxyz/solgo) with >25k lines of Solidity, handling >2.5k ETH (>$4M) in primary transaction value and generating >13k ETH (>$20M) in secondary revenue
+        - Implemented [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds); A low-level optimized, on-chain rendering suite for Moonbirds using compressed image layers deployed with [Solidify](https://github.com/proofxyz/solidify); achieving <0.5 ETH in deployment costs
+        - Designed [Solidify](https://github.com/proofxyz/solidify); A golang + solidity library to make storing arbitrary data on EVM blockchains easy and efficient.
+        - Contributed to the broader Ethereum ecosystem by co-authoring [EIP-6464](https://eips.ethereum.org/EIPS/eip-6464) and [EIP-7526](https://github.com/ethereum/EIPs/pull/7781)
       `,
       tagsList: {
         title: 'Technologies',
@@ -96,7 +94,7 @@ const experienceSectionData = {
       // - Collaboration with UI/UX designers, and product managers to deliver end-to-end blockchain solutions
       description: `
         - Collaborated with 6+ clients and their teams to define project requirements ensuring a smooth execution
-        - Designed and delivered secure and efficient smart-contract solutions and related backends
+        - Delivered secure and efficient smart-contract solutions and related backends
         - Collaborated with 2 security auditing firms to identify and rectify vulnerabilities, ensuring the safety of delivered products
         - Contributed over 8.5k lines of code (~30%) to the open-source library [Ethier](https://github.com/divergencetech/ethier)
       `,
@@ -112,12 +110,12 @@ const experienceSectionData = {
       image: import('@/assets/logos/uibk-logo.png'),
       dates: [new Date('2017-09'), new Date('2021-12')],
       description: `
-      - Performed research within the scope of my PhD topic, contributing to 30+ research items including 3 articles as first author, published in high-impact, peer-reviewed journals 
-      - Developed and implemented numerical models for relativistic hydrodynamics for high-performance computing infrastructure with code execution on >12k parallel cores
+      - Contributed to 30+ research items including 3 articles as first author, published in high-impact, peer-reviewed journals 
+      - Developed numerical methods for high-performance computing infrastructure with code execution on >12k parallel cores
       - Received a [PRACE](https://prace-ri.eu/) project grant for over 27M CPUh on the [Joliot Curie](https://www-hpc.cea.fr/en/Joliot-Curie.html) Rome HPC infrastructure to investigate dynamical phenomena in the LS5039 system
-      - Developed, implemented and thought 4 undergraduate courses in various areas of physics and programming 
-      - Supervised and mentored 3 Bachelor projects with successful graduation 
       `,
+      // - Developed, implemented and thought 4 undergraduate courses in various areas of physics and programming
+      // - Supervised and mentored 3 Bachelor projects with successful graduation
       tagsList: {
         title: 'Technologies',
         tags: [cpp(), c(), python(), mathematica(), openmpi(), golang()],

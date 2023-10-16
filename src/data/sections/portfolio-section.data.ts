@@ -40,7 +40,7 @@ const portfolioSectionData = {
   },
   projects: [
     {
-      name: 'Mantle Liquid Staking Protocol',
+      name: 'Mantle DAO - Liquid Staking Protocol',
       image: import('@/assets/logos/mantle-logo.jpg'),
       dates: [new Date('2023-05'), new Date('2023-10')],
       details: [
@@ -150,8 +150,8 @@ const portfolioSectionData = {
         { src: import('@/assets/portfolio/strange-attractors/sa4.png'), alt: 'Third screenshot' },
       ],
       description: `
-      An interactive, generative art project that simulates multi-dimensional, chaotic systems using nothing but Ethereum smart contracts. The project features on-chain numerical solution of multidimensional differential equations, image generation and participatory elements without any off-chain dependencies. 
-      - Conceptualized and implemented the project, its contracts and UI as sole developer, generating 160ETH in revenue
+      A generative art project, simulating multi-dimensional, chaotic systems using nothing but Ethereum smart contracts; featuring on-chain numerical solution of differential equations, image generation and holder participation without any off-chain dependencies. 
+      - Conceptualized and implemented the project, its contracts, and UI as sole developer generating 160 ETH in revenue
       `,
       tagsList: {
         title: 'Technologies',
