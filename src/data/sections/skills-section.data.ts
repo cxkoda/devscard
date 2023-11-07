@@ -47,7 +47,7 @@ const skillsSectionData = {
         mathematica({ level: 4 }),
         cpp({ level: 3 }),
         python({ level: 3 }),
-        postgreSql({ level: 2 }),
+        // postgreSql({ level: 2 }),
         espresso({
           level: 5,
         }),

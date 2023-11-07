@@ -16,6 +16,7 @@ import {
   nx,
   openmpi,
   pnpm,
+  postgreSql,
   python,
   react,
   reactQuery,
@@ -48,7 +49,7 @@ const experienceSectionData = {
       // [modular smart-contract infrastructure](https://github.com/proofxyz/solgo)
       tagsList: {
         title: 'Technologies',
-        tags: [ethereum(), solidity(), golang(), python(), docker()],
+        tags: [ethereum(), solidity(), golang(), python(), docker(), postgreSql()],
       },
       links: [
         website({ url: 'https://www.proof.xyz/' }),
