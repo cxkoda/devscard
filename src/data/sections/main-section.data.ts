@@ -1,6 +1,6 @@
 import type { MainSection } from '@/types/sections/main-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { github, linkedin, twitter, email } from '../helpers/links';
+import { github, linkedin, twitter, email, website } from '../helpers/links';
 
 const mainSectionData = {
   config: {
@@ -17,7 +17,7 @@ const mainSectionData = {
     { label: 'Email', value: 'me@david-huber.eu' },
     { label: 'LinkedIn', value: 'dave-huber', url: 'https://linkedin.com/in/dave-huber' },
     { label: 'GitHub', value: 'cxkoda', url: 'https://github.com/cxkoda' },
-    { label: 'Website', value: 'david-huber.eu', url: 'https://david-huber.eu', fullRow: true },
+    { label: 'Website', value: 'david-huber.eu', url: 'https://david-huber.eu' },
   ],
   description: `
   Transitioning from a computational physicist to a software engineer, I've honed a unique blend of theoretical abilities and hands-on expertise. My academic journey culminated with a PhD in astroparticle physics, where I delved into relativistic fluid models tailored for high-performance computing.\n\n
@@ -34,6 +34,7 @@ const mainSectionData = {
     github({ url: 'https://github.com/cxkoda' }),
     linkedin({ url: 'https://www.linkedin.com/in/dave-huber' }),
     twitter({ url: 'https://twitter.com/cxkoda' }),
+    website({ url: 'https://david-huber.eu' }),
   ],
 } as const satisfies ReadonlyDeep<MainSection>;
 
