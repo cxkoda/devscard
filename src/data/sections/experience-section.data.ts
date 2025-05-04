@@ -35,25 +35,22 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Lead Blockchain Engineer',
-      company: 'PROOF',
-      image: import('@/assets/logos/proof-logo.jpeg'),
-      dates: [new Date('2022-08'), new Date('2023-10')],
+      role: 'Founding Engineer',
+      company: 'Echo',
+      image: import('@/assets/logos/echo-logo.jpeg'),
+      dates: [new Date('2024-01'), null],
       description: `
-        - Consulted internally on blockchain related decisions for 15+ projects ensuring their smooth execution
-        - Developed a modular smart-contract infrastructure with >25k lines of Solidity, handling >2.5k ETH (>$4M) in primary transaction value and generating >13k ETH (>$20M) in secondary revenue
-        - Implemented [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds); A low-level optimized, on-chain rendering suite for Moonbirds using compressed image layers deployed with [Solidify](https://github.com/proofxyz/solidify); achieving <0.5 ETH in deployment costs
-        - Released [Solidify](https://github.com/proofxyz/solidify); A golang + solidity library for efficient data storage on EVM blockchains
-        - Contributed to the broader Ethereum ecosystem by co-authoring [EIP-6464](https://eips.ethereum.org/EIPS/eip-6464) and [EIP-7526](https://github.com/ethereum/EIPs/pull/7781)
+        - Helped build echo.xyz from the ground up – from early prototypes to production
+        - Shipped core features across the full stack, from smart contracts and backend infra to polished UIs
       `,
-      // [modular smart-contract infrastructure](https://github.com/proofxyz/solgo)
       tagsList: {
         title: 'Technologies',
-        tags: [ethereum(), solidity(), golang(), python(), docker(), postgreSql()],
+        tags: [golang(), typescript(), solidity(), nextJs(), tailwindCss(), postgreSql()],
       },
       links: [
-        website({ url: 'https://www.proof.xyz/' }),
-        linkedin({ url: 'https://www.linkedin.com/company/proof-holdings-inc/' }),
+        website({ url: 'https://www.echo.xyz/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/echo-xyz/' }),
+        twitter({ url: 'https://x.com/echodotxyz' }),
       ],
     },
     // {
@@ -105,6 +102,28 @@ const experienceSectionData = {
         tags: [ethereum(), solidity(), golang(), mathematica(), python(), docker()],
       },
       links: [website({ url: 'https://david-huber.eu' }), twitter({ url: 'https://twitter.com/cxkoda' })],
+    },
+    {
+      role: 'Lead Blockchain Engineer',
+      company: 'PROOF',
+      image: import('@/assets/logos/proof-logo.jpeg'),
+      dates: [new Date('2022-08'), new Date('2023-10')],
+      description: `
+        - Consulted internally on blockchain related decisions for 15+ projects ensuring their smooth execution
+        - Developed a modular smart-contract infrastructure with >25k lines of Solidity, handling >2.5k ETH (>$4M) in primary transaction value and generating >13k ETH (>$20M) in secondary revenue
+        - Implemented [Moonbirds in-chain](https://github.com/proofxyz/solidify/tree/main/examples/moonbirds); A low-level optimized, on-chain rendering suite for Moonbirds using compressed image layers deployed with [Solidify](https://github.com/proofxyz/solidify); achieving <0.5 ETH in deployment costs
+        - Released [Solidify](https://github.com/proofxyz/solidify); A golang + solidity library for efficient data storage on EVM blockchains
+        - Contributed to the broader Ethereum ecosystem by co-authoring [EIP-6464](https://eips.ethereum.org/EIPS/eip-6464) and [EIP-7526](https://github.com/ethereum/EIPs/pull/7781)
+      `,
+      // [modular smart-contract infrastructure](https://github.com/proofxyz/solgo)
+      tagsList: {
+        title: 'Technologies',
+        tags: [ethereum(), solidity(), golang(), python(), docker(), postgreSql()],
+      },
+      links: [
+        website({ url: 'https://www.proof.xyz/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/proof-holdings-inc/' }),
+      ],
     },
     {
       role: 'University Assistant',
