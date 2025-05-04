@@ -36,6 +36,7 @@
     "@percy/cli": "1.26.2",
     "@sparticuz/chromium": "112.0.2",
     "@types/marked": "5.0.0",
+    "@types/wait-on": "5.3.4",
     "astro": "2.8.0",
     "astro-compress": "2.0.14",
     "concurrently": "8.2.0",
@@ -51,13 +52,14 @@
     "prettier": "2.8.8",
     "prettier-plugin-astro": "0.10.0",
     "prettier-plugin-tailwindcss": "0.3.0",
-    "puppeteer-core": "19.8.0",
+    "puppeteer": "24.8.0",
     "puppeteer-report": "3.1.0",
     "rollup-plugin-visualizer": "5.9.2",
     "tailwindcss": "3.3.2",
     "ts-node": "10.9.1",
     "type-fest": "3.13.0",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "wait-on": "8.0.3"
   },
   "repository": {
     "type": "git",
