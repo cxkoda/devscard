@@ -43,7 +43,7 @@ const skillsSectionData = {
           level: 5,
           // description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
         }),
-        golang({ level: 3 }),
+        golang({ level: 5 }),
         mathematica({ level: 4 }),
         cpp({ level: 3 }),
         python({ level: 3 }),

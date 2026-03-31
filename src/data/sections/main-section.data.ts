@@ -23,7 +23,7 @@ const mainSectionData = {
   Transitioning from a computational physicist to a software engineer, I've honed a unique blend of theoretical abilities and hands-on expertise. My academic journey culminated with a PhD in astroparticle physics, where I delved into relativistic fluid models tailored for high-performance computing.\n\n
   Professionally, I am now fully immersed in web3, developing custom smart-contract and backend solutions for a broad range of applications while maintaining a strong focus on security and maintainability and with a passion for complex problems and home espresso making.
   `,
-  tags: [{ name: 'Open for freelance' }, { name: 'Open for hire' }, { name: 'Working on side project' }],
+  tags: [{ name: 'Working on side project' }],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',

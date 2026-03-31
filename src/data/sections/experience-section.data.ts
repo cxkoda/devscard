@@ -35,13 +35,32 @@ const experienceSectionData = {
   },
   jobs: [
     {
+      role: 'Senior Engineer',
+      company: 'Coinbase',
+      image: import('@/assets/logos/coinbase-logo.png'),
+      dates: [new Date('2025-10'), null],
+      description: `
+        - Continuing work on the Echo team post-acquisition
+        - Shipping features across the full stack, from smart contracts and backend services to frontend
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [golang(), typescript(), solidity(), nextJs(), tailwindCss(), postgreSql()],
+      },
+      links: [
+        website({ url: 'https://www.coinbase.com/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/coinbase/' }),
+      ],
+    },
+    {
       role: 'Founding Engineer',
       company: 'Echo',
       image: import('@/assets/logos/echo-logo.jpeg'),
-      dates: [new Date('2024-01'), null],
+      dates: [new Date('2024-01'), new Date('2025-10')],
       description: `
-        - Helped build echo.xyz from the ground up – from early prototypes to production
+        - Helped build echo.xyz from the ground up -- from early prototypes to production
         - Shipped core features across the full stack, from smart contracts and backend infra to polished UIs
+        - Acquired by Coinbase in October 2025
       `,
       tagsList: {
         title: 'Technologies',
